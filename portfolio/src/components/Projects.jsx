@@ -9,7 +9,7 @@ const ProjectsDetails = [
     pTitle: "Portofolio",
     pDes: "A simple landing page using React and Tailwind.",
     pImg: "src/images/portfolio.png",
-    pGitLink:"https://github.com/Saumay-Gupta",
+    pGitLink:"https://github.com/Saumay-Gupta/Portfolio",
     ptech: ["React", "Tailwind CSS"]
     },
     {
