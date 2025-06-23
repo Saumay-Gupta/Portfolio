@@ -6,17 +6,17 @@ import { useState } from 'react'
 
 const skills = [
     // FrontEnd
-    {name: "HTML",  imgSrc: "src/images/html.png", category: "Frontend"},
-    {name: "Tailwind CSS", imgSrc: "src/images/tailwind.png", category: "Frontend"},
-    {name: "React", imgSrc: "src/images/react.png", category: "Frontend"},
-    {name: "JavaScript", imgSrc: "src/images/javascript.png", category: "Frontend"},
+    {name: "HTML",  imgSrc: "/images/html.png", category: "Frontend"},
+    {name: "Tailwind CSS", imgSrc: "/images/tailwind.png", category: "Frontend"},
+    {name: "React", imgSrc: "/images/react.png", category: "Frontend"},
+    {name: "JavaScript", imgSrc: "/images/javascript.png", category: "Frontend"},
     // BackEnd
-    {name: "Node.js", imgSrc: "src/images/nodejs.png", category: "Backend"},
-    {name: "Express.js", imgSrc: "src/images/express.png", category: "Backend"},
-    {name: "MongoDB", imgSrc: "src/images/mongo.png", category: "Backend"}, 
+    {name: "Node.js", imgSrc: "/images/nodejs.png", category: "Backend"},
+    {name: "Express.js", imgSrc: "/images/express.png", category: "Backend"},
+    {name: "MongoDB", imgSrc: "/images/mongo.png", category: "Backend"}, 
     // Tools
-    {name: "Git/GitHub", imgSrc: "src/images/github.png", category: "Tools"},
-    {name: "VS Code", imgSrc: "src/images/vscode.png", category: "Tools"},
+    {name: "Git/GitHub", imgSrc: "/images/github.png", category: "Tools"},
+    {name: "VS Code", imgSrc: "/images/vscode.png", category: "Tools"},
 ]
 
 const categories = ["All","Frontend","Backend","Tools"]

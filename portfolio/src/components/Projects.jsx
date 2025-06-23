@@ -8,21 +8,21 @@ const ProjectsDetails = [
     {
     pTitle: "Portofolio",
     pDes: "A simple landing page using React and Tailwind.",
-    pImg: "src/images/portfolio.png",
+    pImg: "/images/portfolio.png",
     pGitLink:"https://github.com/Saumay-Gupta/Portfolio",
     ptech: ["React", "Tailwind CSS"]
     },
     {
     pTitle: "Chess Game",
     pDes: "A real-time chess game inspired by Chess.com",
-    pImg: "src/images/chess.png",
+    pImg: "/images/chess.png",
     pGitLink:"https://github.com/Saumay-Gupta/CHESS_GAME",
     ptech: ["Javascript", "Node.js", "Socket.io"]
     },
     {
     pTitle: "Todo List",
     pDes: "Todo app with all basic functionality (i.e Add, Remove, Delete, Update).",
-    pImg: "src/images/todo.png",
+    pImg: "/images/todo.png",
     pGitLink:"https://github.com/Saumay-Gupta",
     ptech: ["React", "Tailwind CSS", "CURD"]
     },
