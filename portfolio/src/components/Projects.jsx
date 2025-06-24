@@ -30,7 +30,7 @@ const ProjectsDetails = [
 
 function Projects() {
   return (
-    <div className='flex flex-col lg:h-150 md:h-270 md:mt-10 lg:mt-10 h-screen mt-30'>
+    <div className='flex flex-col lg:h-150 md:h-270 md:mt-10 lg:mt-10 h-screen mt-80'>
       <div className='flex flex-row justify-center lg:mt-18 md:mt-30 mt-40'>
         <span className='text-[#0f1729] font-bold text-4xl'>Featured</span>
         <span className='text-[#7969C9] font-bold text-4xl mx-2'>Projects</span>

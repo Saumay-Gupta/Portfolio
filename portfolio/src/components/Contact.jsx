@@ -27,7 +27,7 @@ function Contact() {
 
         emailjs.send(serviceId,templateId,templateParams,publicKey)
         .then( (response) => {
-            console.log("Email Success:", response)
+            alert("Email Send Successfully..!!")
             setName("")
             setMessage("")
             setEmail("")
@@ -38,8 +38,8 @@ function Contact() {
     }
 
   return (
-    <div className='flex flex-col lg:h-210 md:h-210 h-490'>
-        <div className='flex flex-row justify-center lg:mt-25 md:mt-20 mt-170 '>
+    <div className='flex flex-col lg:h-210 md:h-210 h-520'>
+        <div className='flex flex-row justify-center lg:mt-25 md:mt-20 mt-200 '>
             {/* Heading */}  
             <span className='text-[#0f1729] text-4xl mx-2 font-bold'>Get In</span>
             <span className='text-[#7969C9] text-4xl font-bold'>Touch</span>

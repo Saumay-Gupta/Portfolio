@@ -18,7 +18,7 @@ function Home() {
       <div className=' flex flex-col lg:py-10 md:py-10 py-25 items-center justify-center'>
         <a href="#projects" className='bg-[#7969C9] lg:mb-0 md:mb-40 text-white w-40 text-center font-medium p-2 rounded-4xl shadow-md transition duration-300 ease-in-out hover:shadow-[0_0_15px_4px_#887dbd]'>View My Work</a>
       </div>
-      <div className='flex flex-col lg:pt-35 md:pt-35 pt-35 h-50 items-center justify-center animate-bounce'> 
+      <div className='flex flex-col lg:pt-35 md:pt-35 pt-20 h-50 items-center justify-center animate-bounce'> 
         <p className='font-normal'>Scroll</p>
         <ArrowDown className='text-[#7969C9]'/>
       </div>

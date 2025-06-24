@@ -28,7 +28,7 @@ function Skills() {
 
   return (
     <div className='flex flex-col lg:h-250 md:h-250 h-screen'>
-      <div className='flex flex-row justify-center lg:mt-20 md:mt-30 mt-100'>
+      <div className='flex flex-row justify-center lg:mt-20 md:mt-30 mt-120'>
         <span className='text-[#0f1729] font-bold text-4xl'>My</span>
         <span className='text-[#7969C9] font-bold text-4xl mx-2'>Skills</span>
       </div>
