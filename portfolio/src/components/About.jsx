@@ -22,7 +22,7 @@ function About() {
                 I'm constantly exploring new technologies and refining my skills to become a better developer every day
                 </p>
                 <div className='mt-15'>
-                <a href="https://drive.google.com/file/d/1fzBi-qcCyB7DG8noKosZI-UdzwshGHob/view?usp=sharing" target="_blank" className='bg-[#7969C9] text-white text-center font-medium py-3 px-7 rounded-4xl shadow-md transition duration-300 ease-in-out hover:shadow-[0_0_15px_4px_#887dbd]'>Resume</a>
+                <a href="https://drive.google.com/file/d/10CZgV6rmgT5w5SGJAyMcQ-bfBt5N6yHG/view?usp=sharing" target="_blank" className='bg-[#7969C9] text-white text-center font-medium py-3 px-7 rounded-4xl shadow-md transition duration-300 ease-in-out hover:shadow-[0_0_15px_4px_#887dbd]'>Resume</a>
                 </div>
             </div>
             <div className= 'flex flex-col justify-evenly h-180 md:h-130 lg:mx-0 md:mx-2'>
