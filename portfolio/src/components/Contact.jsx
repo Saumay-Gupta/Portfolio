@@ -51,25 +51,25 @@ function Contact() {
             <div className='flex flex-col lg:w-120 md:50 lg:mx-30 md:mx-2'>
                 {/* Left Section */}
                 <span className='text-[#0f1729] text-2xl font-bold text-center'>Contact Information</span>
-                <div className='flex flex-row justify-center md:justify-start mt-10'>
+                <div className='flex flex-row mx-auto md:mx-0 mt-10'>
                     <Mail className='text-[#7969C9] rounded-full w-10 h-10 p-2 bg-[#a59ec5]'/>
                     <div className='flex flex-col mx-4'> 
-                        <span className='text-center font-medium'>Email</span>
-                        <span className="text-center font-medium">saumaygupta03@gmail.com</span>
+                        <span className='text-start font-medium'>Email</span>
+                        <span className="text-start font-medium">saumaygupta03@gmail.com</span>
                     </div>
                 </div>
-                <div className='flex flex-row justify-center md:justify-start  mt-10'>
-                    <Phone className='text-[#7969C9] rounded-full w-10 h-10 p-2 bg-[#a59ec5]'/>
-                    <div className='flex flex-col mx-14 md:mx-6'> 
-                        <span className='text-center font-medium mx-10'>Phone</span>
-                        <span className="text-center font-medium">+919027100838</span>
+                <div className='flex flex-row justify-start mx-auto md:mx-0 mt-10'>
+                    <Phone className='text-[#7969C9] rounded-full w-10 h-10 p-2 mr-4 md:mr-0 bg-[#a59ec5]'/>
+                    <div className='flex flex-col justify-start mr-27 md:mr-0 md:mx-4'> 
+                        <span className=' text-start font-medium w-20'>Phone</span>
+                        <span className="font-medium">+919027100838</span>
                     </div>
                 </div>
-                <div className='flex flex-row justify-center md:justify-start mt-10'>
-                    <MapPinHouse className='text-[#7969C9] rounded-full w-10 h-10 p-2 bg-[#a59ec5]'/>
-                    <div className='flex flex-col mx-13 md:mx-6'> 
-                        <span className='text-center font-medium'>Location</span>
-                        <span className="text-center font-medium">Greater Noida, U.P</span>
+                <div className='flex flex-row justify-start mx-auto md:mx-0 md:justify-start mt-10'>
+                    <MapPinHouse className='text-[#7969C9] rounded-full w-10 h-10 mr-4 md:mr-0 p-2 bg-[#a59ec5]'/>
+                    <div className='flex flex-col mr-22  md:mr-0 md:mx-4'> 
+                        <span className='font-medium'>Location</span>
+                        <span className="font-medium">Greater Noida, U.P</span>
                     </div>
                 </div>
                 <div className='flex flex-row mt-12 md:mt-30'>
